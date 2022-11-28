@@ -1,0 +1,202 @@
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  background-image: url(./images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: 950px -100px;
+  background-size: 40%;
+}
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+#navbarNav {
+  text-align: center;
+  font-weight: bold;
+}
+
+.hero-btn,
+.hero-btn-nav {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: hsl(12, 88%, 59%);
+  position: relative;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.noHover {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 34px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #fff;
+  color: hsl(12, 88%, 59%);
+}
+form .hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 14px;
+  font-size: 13px;
+  background: hsl(12, 88%, 59%);
+  position: relative;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.noHover:hover {
+  color: hsl(12, 88%, 59%);
+  background-color: #fff;
+}
+.hero-btn:hover,
+.hero-btn-nav:hover {
+  color: #fff;
+  background-color: hsl(12, 94%, 67%);
+}
+.links a:hover {
+  color: hsl(12, 88%, 59%);
+}
+p {
+  color: hsl(227, 12%, 61%);
+}
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: bold;
+}
+h6 {
+  font-weight: bold;
+  /* margin-block-start: 0 !important;
+  margin-block-end: 0 !important; */
+  padding-top: 7px;
+}
+
+.number {
+  color: #fff;
+  background-color: hsl(12, 88%, 59%);
+  padding: 5px;
+
+  border-radius: 25px;
+}
+
+.item {
+  background-color: hsl(0, 0%, 98%) !important;
+  margin: 20px;
+  padding: 20px;
+
+  position: relative;
+}
+.test-img {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.owl-carousel .owl-item img {
+  width: 50px !important;
+}
+.owl-carousel .owl-item h6 {
+  margin-top: 25px !important;
+}
+.box-color {
+  background-color: hsl(12, 88%, 59%);
+
+  height: 200px;
+}
+.text-box h2 {
+  color: #fff;
+  font-weight: 500;
+}
+.icons img {
+  margin: 4px;
+}
+footer {
+  background-color: hsl(233, 12%, 13%);
+}
+.links {
+  width: 35%;
+}
+.links a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 10px;
+}
+.links a:hover {
+  color: hsl(12, 88%, 59%);
+}
+.col-a,
+.form-copy {
+  height: 9.5rem;
+}
+footer p {
+  font-size: 12px;
+  padding-bottom: 15px;
+  margin: 0 !important;
+}
+.form-control {
+  border-radius: 1.375rem !important;
+}
+
+@media (max-width: 700px) {
+  .hero-btn-nav {
+    display: none;
+  }
+  .orange {
+    background-color: hsl(13, 100%, 96%);
+  }
+  .col-a,
+  .form-copy {
+    height: 5rem;
+  }
+  .links {
+    width: auto;
+  }
+  footer p {
+    font-size: 10px;
+  }
+
+  .links a {
+    padding: 0 40px;
+    font-size: 14px;
+  }
+  .links {
+    padding: 12px;
+  }
+  .header {
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 114%;
+    background-position-x: 75px;
+    background-position-y: -85px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .differences {
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: -250px 250px;
+  }
+}
+@media (min-width: 700px) {
+  .customized,
+  .part1,
+  .text-box h2 {
+    width: 35%;
+  }
+  .part2 {
+    width: 38%;
+  }
+}
